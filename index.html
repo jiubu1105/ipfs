@@ -4,8 +4,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
-	<title>IPFS</title>
-	<meta name="keywords" content="IPFS" />
+	<title>ipfs图床.</title>
+	<meta name="keywords" content="ipfs图床,ipfs,IPFS,去中心化图床,永久图床" />
+	<link rel="shortcut icon" href="https://pic.rmb.bdstatic.com/bjh/7f258369bc7cae227053a6588adb2453.png" />
   	<link rel="stylesheet" href="./static/style.css">
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
 	<script src="./static/file.js"></script>
@@ -15,7 +16,7 @@
 	<input id="file" type="file" multiple="multiple" style="display: none;">
 	<div class="container">
 		<div class="upload">
-			<div class="title">IPFS<small style="font-size:10px;">(文件传到ipfs星际文件系统)</small><input id="xkx" autocomplete="off" maxlength="16" style="display: none;" placeholder="请上传...">
+			<div class="title">ipfs图床<small style="font-size:10px;">(文件传到ipfs)</small><input id="xkx" autocomplete="off" maxlength="16" style="display: none;" placeholder="请上传...">
 			</div>
 			<div class="content" id="dragbox">
 				<svg class="icon" viewBox="0 0 1335 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -29,7 +30,8 @@
 		<div class="filelist">
 			<div class="title">上传列表
 				<div class="copyall" style="display:none">
-					<button onclick="chage(this);" value="https://ipfs.355377.xyz" id="ipfs">国际1</button>
+					线路
+					<button onclick="chage(this);" value="https://ipfs.io" id="ipfs">国际1</button>
 					<button onclick="chage(this);" value="https://cf-ipfs.com" id="cf-ipfs">国际2</button>
 					<button onclick="chage(this);" value="https://cdn.ipfsscan.io" id="filecoin">中国1</button>
 					<button onclick="chage(this);" value="https://ipfs.crossbell.io" id="crossbell">中国2</button>
@@ -51,9 +53,6 @@
 	</div>
 	<div id="footer" style="position:fixed;width: 100%;text-align: center;bottom: 0px;display: block;">
 		<div style="height: 20px">
-		<p style="color:#000;">您的IP:
-		<script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
-		<script>document.write(returnCitySN["cip"])</script>  
 		</p>
 		</div>
 		</div>
