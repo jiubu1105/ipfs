@@ -67,7 +67,7 @@ $(() => {
  	        }else{
  	        document.querySelector('.container').classList.add('start')
  	        var type = $('#id');
-  	        api = 'glitch.jiubu.workers.dev/api/v0/add?pin=false'
+  	        api = 'https://glitch.jiubu.workers.dev/api/v0/add?pin=false'
             let formData = new FormData();
             formData.append('file', files[i]);
             let randomClass = Date.now().toString(36);
