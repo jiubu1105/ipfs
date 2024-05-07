@@ -67,7 +67,7 @@ $(() => {
  	        }else{
  	        document.querySelector('.container').classList.add('start')
  	        var type = $('#id');
-  	        api = 'https://ipfs.infura.io:5001/api/v0/add?pin=true'
+  	        api = 'https://cdn.ipfsscan.io/api/v0/add?pin=false'
             let formData = new FormData();
             formData.append('file', files[i]);
             let randomClass = Date.now().toString(36);
