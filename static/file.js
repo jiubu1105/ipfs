@@ -67,7 +67,7 @@ $(() => {
  	        }else{
  	        document.querySelector('.container').classList.add('start')
  	        var type = $('#id');
-  	        api = 'https://ipfs.blockfrost.io/api/v0/add?pin=true'
+  	        api = 'https://ipfs.oversas.org/api/v0/add?pin=true'
             let formData = new FormData();
             formData.append('file', files[i]);
             let randomClass = Date.now().toString(36);
