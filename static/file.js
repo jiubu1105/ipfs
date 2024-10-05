@@ -67,7 +67,7 @@ $(() => {
  	        }else{
  	        document.querySelector('.container').classList.add('start')
  	        var type = $('#id');
-  	        api = 'https://gateway.storjshare.io/api/v0/add?pin=true'
+  	        api = 'https://www.storj-ipfs.com/api/v0/add?pin=true'
             let formData = new FormData();
             formData.append('file', files[i]);
             let randomClass = Date.now().toString(36);
